@@ -1,5 +1,6 @@
 import "./App.css";
 import Body from "./Body";
+import Click from "./component/Click";
 import Footer from "./component/Footer";
 import Friends from "./component/Friends";
 // import Group from "./component/Group";
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Nav />
+      <Click />
       <Body />
       <Patients />
       <Friends />
